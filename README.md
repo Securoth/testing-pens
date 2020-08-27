@@ -1,4 +1,4 @@
-# Discovery
+# Kali Setup
 
 ## Full Port Scan
 

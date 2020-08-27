@@ -1,6 +1,10 @@
 # Table of contents
 
-* [Discovery](README.md)
+* [Kali Setup](README.md)
+
+## Kali Setup
+
+* [Untitled](kali-setup/untitled.md)
 
 ## Enumeration <a id="enumeration-1"></a>
 
@@ -9,4 +13,8 @@
 * [SMB](enumeration-1/undefined.md)
 * [FTP](enumeration-1/ftp.md)
 * [SSH](enumeration-1/ssh.md)
+
+## Discovery
+
+* [Social Engineering](discovery/social-engineering.md)
 
