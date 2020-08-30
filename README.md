@@ -1,105 +1,69 @@
-# Kali Setup
+---
+description: Setting Up Your Pentesting Environment
+---
 
-## Full Port Scan
+# Workstation Setup
 
- This scan touches all 65,535 ports on all live systems.
+## Installing the Operating System
 
- 1. List all targets in a text file, one per line.
-
-2. Run the following
-
-{% tabs %}
-{% tab title="Nmap" %}
-```bash
-nmap -p- -iR -iL targets.txt 
-```
-{% endtab %}
-{% endtabs %}
-
-## All Host, Full Port Scan
-
-This scan touches all 65,535 ports on **all** systems.
-
-1. List targets in a text file, one per line
-2. Run the following
+* Download the ISO for the operating system of your choice
+  * [Kali ](https://www.kali.org/downloads/)is the most widely used
+  * [Parrot](https://parrotlinux.org/download/) is lighter and has more tools
+* Verify the sha256 hashsum of the file using on the following methods
 
 {% tabs %}
-{% tab title="Nmap" %}
-```text
-nmap -p- -iR -Pn -iL targets.txt
+{% tab title="PoSH" %}
+```aspnet
+Get-FileHash \path\to\file
 ```
-{% endtab %}
-
-{% tab title="Rustscan" %}
-```bash
-#!/bin/bash
-#target list must be ips, not networks
-input="~/targets/txt"
-while IFS= read -r line
-do
-  rustscan "$line"
-done < "$input"
-```
-{% endtab %}
-
-{% tab title="Masscan" %}
-
 {% endtab %}
 
 {% tab title="Bash" %}
-
-{% endtab %}
-
-{% tab title="Python" %}
-
-{% endtab %}
-
-{% tab title="C" %}
-
-{% endtab %}
-{% endtabs %}
-
-## Host a Tracking Pixel
-
-A tracking pixel is a 1x1 image, hosted on a remote server, that is linked from an email. Because of its small size it is usually invisible to the naked eye. When the recipient downloads the image, information about their ip address, OS, and browser will be recorded in the server access log.
-
-{% tabs %}
-{% tab title="Apache" %}
 ```bash
-#install apache web server and imagemagick
-apt install -y apache2 imagemagick
-
-#create the pixel
-convert -size 1x1 xc:transparent pixel.jpg
-
-#stop apache server
-systemctl stop apache2
-
-#move tracking pixel to webroot directory
-mv pixel.jpg /var/www/html/
-
-#start apache server
-systemctl start apache2
-
-#view the most recent access log entries
-tail -f /var/log/apache2/access.log
+sha256sum <file>
 ```
 {% endtab %}
 
-{% tab title="Nginx" %}
-```bash
-#install nginx web server and imagemagick
-apt install -y nginx imagemagick
-
-#create the pixel
-convert -size 1x1 xc:transparent pixel.jpg
-
-
-```
-{% endtab %}
-
-{% tab title="http.server" %}
-
+{% tab title="7-ZIP" %}
+* Open 7-Zip and browse to the file
+* Right click the file -&gt; CRC -&gt; SHA-256
 {% endtab %}
 {% endtabs %}
+
+* Use the New Virtual Machine Wizard in VMware Workstation to create a VM from the ISO file
+* Boot the VM and follow the interactive installer using the following settings:
+  * Use the entire virtual disk
+  * Install on a single partition
+  * No LVM
+  * No encrypted volumes
+
+{% hint style="info" %}
+These installer settings are ideal for a virtual machine that will be wiped or rolled back on a regular basis. For a semi-permanent bare-metal installation, encrypted volumes should be used and LVM is preferred.
+{% endhint %}
+
+## Enabling SSH Access
+
+SSH access from the host may seem unnecessary with the ability to interact directly with the VM, but using an SSH client is lower latency and saves resources if you run your VM in headless mode.
+
+### Option 1: Quick, Insecure, Ephemeral
+
+```bash
+#install openssh server
+apt install -y openssh-server
+
+#configure to allow root login
+echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
+
+#start the ssh service
+systemctl start ssh.socket
+```
+
+### Option 2: Permanent, More Secure
+
+```bash
+#install openssh server
+apt install -y openssh-server
+
+#
+```
 

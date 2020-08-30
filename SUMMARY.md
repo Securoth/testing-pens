@@ -1,10 +1,6 @@
 # Table of contents
 
-* [Kali Setup](README.md)
-
-## Kali Setup
-
-* [Untitled](kali-setup/untitled.md)
+* [Workstation Setup](README.md)
 
 ## Enumeration <a id="enumeration-1"></a>
 
@@ -16,5 +12,6 @@
 
 ## Discovery
 
+* [Port Scanning](discovery/port-scanning.md)
 * [Social Engineering](discovery/social-engineering.md)
 
