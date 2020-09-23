@@ -2,7 +2,7 @@
 
 ## Full Port Scan
 
- This scan touches all 65,535 ports on all live systems.
+ This scan checks all 65,535 ports on all live systems.
 
 1. List all targets in a text file, one per line.
 2. ```
@@ -11,7 +11,7 @@
 
 ## All Host, Full Port Scan
 
-This scan touches all 65,535 ports on **all** systems.
+This scan checks all 65,535 ports on **all** systems.
 
 1. List targets in a text file, one per line
 2. Run the following using the tool of your choice:
