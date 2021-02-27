@@ -1,6 +1,13 @@
 # Table of contents
 
 * [Workstation Setup](README.md)
+* [Cheat Sheets](cheat-sheets.md)
+
+## Discovery
+
+* [Port Scanning](discovery/port-scanning.md)
+* [Social Engineering](discovery/social-engineering.md)
+* [OSINT](discovery/osint.md)
 
 ## Enumeration <a id="enumeration-1"></a>
 
@@ -10,8 +17,8 @@
 * [FTP](enumeration-1/ftp.md)
 * [SSH](enumeration-1/ssh.md)
 
-## Discovery
+## Privilege Escalation
 
-* [Port Scanning](discovery/port-scanning.md)
-* [Social Engineering](discovery/social-engineering.md)
+* [SUID Abuse](privilege-escalation/suid-abuse.md)
+* [Unquoted Service Path](privilege-escalation/unquoted-service-path.md)
 
