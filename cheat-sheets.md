@@ -10,7 +10,9 @@ SSH
 
 ## Tools
 
+### Terminator
 
+* [Terminator Cheat Sheet](https://github.com/spabinger/terminator-cheat-sheet)
 
 ## Programming Languages
 
