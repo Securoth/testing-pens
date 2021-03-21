@@ -1,5 +1,9 @@
 # Cheat Sheets
 
+## Pentest Notes
+
+* [Rowbot's PenTest Notes](https://guide.offsecnewbie.com/cherrytree-oscp-template)
+
 ## Protocols
 
 ### HTTP

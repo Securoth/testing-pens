@@ -1,5 +1,31 @@
 # Port Scanning
 
+## Ping Sweep \(ICMP\)
+
+This scan uses ICMP to check for live systems.
+
+{% tabs %}
+{% tab title="Native" %}
+```text
+
+```
+{% endtab %}
+
+{% tab title="Bash" %}
+```bash
+
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+
+```
+{% endtab %}
+{% endtabs %}
+
+
+
 ## Full Port Scan
 
  This scan checks all 65,535 ports on all **live** systems.
