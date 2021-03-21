@@ -28,7 +28,7 @@
 
 ### Tcpdump
 
-* [https://noraj.gitlab.io/the-hacking-trove/Tools/tcpdump/](https://noraj.gitlab.io/the-hacking-trove/Tools/tcpdump/)
+* [tcpflags syntax](https://noraj.gitlab.io/the-hacking-trove/Tools/tcpdump/)
 
 ## Programming Languages
 
