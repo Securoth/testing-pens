@@ -16,6 +16,7 @@
 * [SMB](enumeration-1/undefined.md)
 * [FTP](enumeration-1/ftp.md)
 * [SSH](enumeration-1/ssh.md)
+* [DNS](enumeration-1/dns.md)
 
 ## Privilege Escalation
 
