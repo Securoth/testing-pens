@@ -3,11 +3,18 @@
 ## Pentest Notes
 
 * [Rowbot's PenTest Notes](https://guide.offsecnewbie.com/cherrytree-oscp-template)
+* [https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/\#fingerprint-smb-version](https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/#fingerprint-smb-version)
 
 ### Reverse Shell
 
 * [https://highon.coffee/blog/reverse-shell-cheat-sheet/](https://highon.coffee/blog/reverse-shell-cheat-sheet/)
 
+### SMB Enumeration
+
+* [https://www.hackingarticles.in/a-little-guide-to-smb-enumeration/](https://www.hackingarticles.in/a-little-guide-to-smb-enumeration/)
+* [https://0xdf.gitlab.io/2018/12/02/pwk-notes-smb-enumeration-checklist-update1.html](https://0xdf.gitlab.io/2018/12/02/pwk-notes-smb-enumeration-checklist-update1.html)
+* [https://arnavtripathy98.medium.com/smb-enumeration-for-penetration-testing-e782a328bf1b](https://arnavtripathy98.medium.com/smb-enumeration-for-penetration-testing-e782a328bf1b)
+* 
 ## Protocols
 
 ### HTTP
