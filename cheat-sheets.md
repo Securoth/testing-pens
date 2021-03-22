@@ -4,6 +4,10 @@
 
 * [Rowbot's PenTest Notes](https://guide.offsecnewbie.com/cherrytree-oscp-template)
 
+### Reverse Shell
+
+* [https://highon.coffee/blog/reverse-shell-cheat-sheet/](https://highon.coffee/blog/reverse-shell-cheat-sheet/)
+
 ## Protocols
 
 ### HTTP
@@ -33,6 +37,10 @@
 ### Tcpdump
 
 * [tcpflags syntax](https://noraj.gitlab.io/the-hacking-trove/Tools/tcpdump/)
+
+### enum4linux
+
+* [https://highon.coffee/blog/enum4linux-cheat-sheet/](https://highon.coffee/blog/enum4linux-cheat-sheet/)
 
 ## Programming Languages
 
