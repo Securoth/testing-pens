@@ -22,5 +22,5 @@
 
 * [Kernel Exploits](privilege-escalation/kernel-exploits.md)
 * [SUID Abuse](privilege-escalation/suid-abuse.md)
-* [Unquoted Service Path](privilege-escalation/unquoted-service-path.md)
+* [Service Exploits](privilege-escalation/unquoted-service-path.md)
 
