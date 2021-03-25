@@ -18,6 +18,10 @@
 * [SSH](enumeration-1/ssh.md)
 * [DNS](enumeration-1/dns.md)
 
+## Post-Compromise
+
+* [Checklist](post-compromise/checklist.md)
+
 ## Privilege Escalation
 
 * [File Permissions](privilege-escalation/file-permissions.md)
