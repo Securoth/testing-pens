@@ -33,5 +33,7 @@ First see if sudo su is allowed, if not try the following:
 
 Finally, check if you can passwordless sudo any binaries with sudo -l or an automated privesc checker. Look up that binary in GTFOBins/LOLBAS.
 
+If nothing is available on GTFO/LOL check for the LD\_PRELOAD or LDLIBRARY PATH __variable. If present, compile a reverse shell shared object and pass via sudo.
+
 
 

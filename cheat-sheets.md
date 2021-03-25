@@ -8,6 +8,7 @@
 ### Reverse Shell
 
 * [https://highon.coffee/blog/reverse-shell-cheat-sheet/](https://highon.coffee/blog/reverse-shell-cheat-sheet/)
+* [https://bananamafia.dev/post/shell-upgrade/](https://bananamafia.dev/post/shell-upgrade/)
 
 ### SMB Enumeration
 
