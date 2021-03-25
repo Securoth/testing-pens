@@ -20,6 +20,7 @@
 
 ## Privilege Escalation
 
+* [File Permissions](privilege-escalation/file-permissions.md)
 * [Kernel Exploits](privilege-escalation/kernel-exploits.md)
 * [SUID Abuse](privilege-escalation/suid-abuse.md)
 * [Service Exploits](privilege-escalation/unquoted-service-path.md)
