@@ -31,7 +31,7 @@ First see if sudo su is allowed, if not try the following:
 * sudo /bin/bash
 * sudo passwd
 
-Finally, check if you can passwordless sudo any commands with sudo -l or an automated privesc checker. If you can, look up that binary in GTFOBins/LOLBAS.
+Finally, check if you can passwordless sudo any binaries with sudo -l or an automated privesc checker. Look up that binary in GTFOBins/LOLBAS.
 
 
 
