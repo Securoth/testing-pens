@@ -13,6 +13,6 @@ be careful with the unsafe arg, it will allow checks that crash a vulnerable sys
 {% endhint %}
 
 ```bash
-nmap -v -p445,139 --script=smb-vuln-* --script-args=unsafe=1 -iL windows-smb-ips  
+nmap -v -p445,139 -O -Sv --script=smb-vuln-* --script-args=unsafe=1 -iL windows-smb-ips  
 ```
 
