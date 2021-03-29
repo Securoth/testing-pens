@@ -4,6 +4,10 @@
 
 try the namp script smb-os-discovery
 
+```bash
+nmap -p139,445 --script=smb-os-discovery <target>
+```
+
 
 
 ## Nmap vuln identification
