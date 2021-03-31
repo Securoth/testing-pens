@@ -3,6 +3,7 @@
 ## ALL Systems
 
 * check for open ports that nmap was blocked from seeing
+* run automated privesc checker
 
 
 
