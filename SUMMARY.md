@@ -11,6 +11,7 @@
 
 ## Enumeration <a id="enumeration-1"></a>
 
+* [HTTP](enumeration-1/http.md)
 * [Telnet](enumeration-1/telnet.md)
 * [SNMP](enumeration-1/snmp.md)
 * [SMB](enumeration-1/undefined.md)
