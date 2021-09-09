@@ -1,7 +1,8 @@
 # Table of contents
 
 * [Workstation Setup](README.md)
-* [Cheat Sheets](cheat-sheets.md)
+* [Cheat Sheets](cheat-sheets-1.md)
+* [Cheat Sheets \(Others\)](cheat-sheets.md)
 
 ## Discovery
 
