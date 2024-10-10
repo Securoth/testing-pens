@@ -2,7 +2,7 @@
 
 * [Workstation Setup](README.md)
 * [Cheat Sheets](cheat-sheets-1.md)
-* [Cheat Sheets \(Others\)](cheat-sheets.md)
+* [Cheat Sheets (Others)](cheat-sheets.md)
 
 ## Discovery
 
@@ -10,7 +10,7 @@
 * [Social Engineering](discovery/social-engineering.md)
 * [OSINT](discovery/osint.md)
 
-## Enumeration <a id="enumeration-1"></a>
+## Enumeration <a href="#enumeration-1" id="enumeration-1"></a>
 
 * [HTTP](enumeration-1/http.md)
 * [Telnet](enumeration-1/telnet.md)
@@ -22,7 +22,7 @@
 
 ## Post-Compromise
 
-* [Checklist](post-compromise/checklist.md)
+* [User Foothold](post-compromise/checklist.md)
 
 ## Privilege Escalation
 
@@ -30,4 +30,3 @@
 * [Kernel Exploits](privilege-escalation/kernel-exploits.md)
 * [SUID Abuse](privilege-escalation/suid-abuse.md)
 * [Service Exploits](privilege-escalation/unquoted-service-path.md)
-
