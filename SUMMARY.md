@@ -23,6 +23,7 @@
 ## Post-Compromise
 
 * [User Foothold](post-compromise/checklist.md)
+* [AD Foothold](post-compromise/ad-foothold.md)
 
 ## Privilege Escalation
 
@@ -33,4 +34,4 @@
 
 ***
 
-* [AD Foothold](ad-foothold.md)
+* [Password Cracking](password-cracking.md)
